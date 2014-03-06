@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+    <head>
+        <meta charset="utf-8" />
+        <title>Подгрузка модулей для angularjs</title>
+    </head>
+    <body>
+        <h1>Погдгрузка модулей на angularjs</h1>
+        <div data-lazy-load="testModule"></div>
+        <div data-lazy-load="testModule2"></div>
+        <script src="js/vendor/angular/angular.min.js" type="text/javascript"></script>
+        <script src="js/vendor/require.js" type="text/javascript"></script>
+        <script src="js/modules/lazyLoad/lazyLoad.js" type="text/javascript"></script>
+        <script src="js/main.js" type="text/javascript"></script>
+    </body>
+</html>
