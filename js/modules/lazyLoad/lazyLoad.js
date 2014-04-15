@@ -204,6 +204,7 @@
                             }
                         },
                         loadModule: function(options, afterLoad) {
+                            console.log(options);
                             var that = this;
                             if (afterLoad === undefined) {
                                 afterLoad = function (){};
@@ -248,7 +249,7 @@
                                                     sc = (options.newScope === undefined) ? scope : scope.$new();
 
                                             $compile(content)(sc);
-                                            afterLoad();
+                                            afterLoad(content);
                                         } else {
                                             $http.get(modConfig.template).success(function(data) {
                                                 //Создаем отдельное пространство для модуля
@@ -258,7 +259,7 @@
 
                                                 $compile(content)(sc);
                                                 cacheMod.put(modConfig.template, data);
-                                                afterLoad();
+                                                afterLoad(content);
                                             });
                                         }
                                     }
@@ -266,6 +267,26 @@
                             } else {
                                 throw ("Вы пытаетесь загрузить модуль, который не описан в конфигурации загрузчика!");
                             }
+                        },
+                        //Подгрузка нескольких модулей
+                        loadModules: function (options, afterLoad) {
+                            var ln = options.length;
+                            var _load = function (option, i) {
+                                if (i === undefined) {
+                                    i = 0;
+                                }
+
+                                if(i < ln) {
+                                    this.loadModule(option, function () {
+                                        i++;
+                                        _load.call(this, options[i], i);
+                                    }.bind(this));
+                                } else {
+                                    afterLoad(options);
+                                }
+                            };
+
+                            _load.call(this, options[0]);
                         },
                         getModuleConfig: function(moduleName) {
                             var mod = modules[moduleName];

@@ -18,3 +18,20 @@ app.config(['$lazyLoadProvider', function ($lazyLoadProvider) {
     ];
     $lazyLoadProvider.config(modules, "app");
 } ]);
+
+app.controller("baseController", ['$scope', '$lazyLoad', '$document', function ($scope, $lazyLoad, $document) {
+    $lazyLoad.loadModules([
+        {
+            name: "testModule",
+            scope: $scope,
+            el: angular.element($document[0].querySelector('#testModule'))
+        },
+        {
+            name: "testModule2",
+            scope: $scope,
+            el: angular.element($document[0].querySelector('#testModule2'))
+        }
+    ], function (options) {
+        console.log(options);
+    });
+}]);
