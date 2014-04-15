@@ -20,7 +20,7 @@ app.config(['$lazyLoadProvider', function ($lazyLoadProvider) {
 } ]);
 
 app.controller("baseController", ['$scope', '$lazyLoad', '$document', function ($scope, $lazyLoad, $document) {
-    $lazyLoad.loadModules([
+    $lazyLoad.loadMany([
         {
             name: "testModule",
             scope: $scope,

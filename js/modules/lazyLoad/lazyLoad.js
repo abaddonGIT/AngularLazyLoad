@@ -269,7 +269,7 @@
                             }
                         },
                         //Подгрузка нескольких модулей
-                        loadModules: function (options, afterLoad) {
+                        loadMany: function (options, afterLoad) {
                             var ln = options.length;
                             var _load = function (option, i) {
                                 if (i === undefined) {
