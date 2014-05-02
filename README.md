@@ -5,15 +5,15 @@ AngularLazyLoad
 <ol>
     <li>
         Подключение:
-        <pre>
-            <script src="js/modules/lazyLoad/lazyLoad.js" type="text/javascript"></script>
-        </pre>
-        <pre>
-            var app = angular.module("app", ["lazyLoad"]);
-        </pre>
+        <div class="highlight highlight-js">
+            <pre>
+                var app = angular.module("app", ["lazyLoad"]);
+            </pre>
+        </div>
     </li>
     <li>
         Настройка провайдера:
+        <div class="highlight highlight-js">
         <pre>
             app.config(['$lazyLoadProvider', function ($lazyLoadProvider) {
                 var modules = [
@@ -27,27 +27,32 @@ AngularLazyLoad
                 $lazyLoadProvider.config(modules, "app");
             } ]);
         </pre>
+        </div>
     </li>
     <li>
         Подкрузка директивой:
-        <pre>
-            <div data-lazy-load="modName"></div>
-        </pre>
+        <div class="highlight highlight-html">
+            <pre>
+                <div data-lazy-load="modName"></div>
+            </pre>
+        </div>
     </li>
     <li>
         Подгрузка внутри контроллера:
-        <pre>
-            app.controller("baseController", ['$scope', '$lazyLoad', '$document', function ($scope, $lazyLoad, $document) {
-                $lazyLoad.loadMany([//Ф-я для подгрузки нескольких модулей одновременно, для одного модуля можно использовать ф-ю loadModule
-                    {
-                        name: "testModule",//Имя модуля, которое было указано в провайдере
-                        scope: $scope,//Область выполнения
-                        el: angular.element($document[0].querySelector('#testModule'))//Куда будет вставлен подгруженный код шаблона, если такой имеется
-                    }
-                ], function () {
-                   console.log("Все модули подгруженны");
-                });
-            }]);
-        </pre>
+        <div class="highlight highlight-js">
+            <pre>
+                app.controller("baseController", ['$scope', '$lazyLoad', '$document', function ($scope, $lazyLoad, $document) {
+                    $lazyLoad.loadMany([//Ф-я для подгрузки нескольких модулей одновременно, для одного модуля можно использовать ф-ю loadModule
+                        {
+                            name: "testModule",//Имя модуля, которое было указано в провайдере
+                            scope: $scope,//Область выполнения
+                            el: angular.element($document[0].querySelector('#testModule'))//Куда будет вставлен подгруженный код шаблона, если такой имеется
+                        }
+                    ], function () {
+                       console.log("Все модули подгруженны");
+                    });
+                }]);
+            </pre>
+        </div>
     </li>
 </ol>
