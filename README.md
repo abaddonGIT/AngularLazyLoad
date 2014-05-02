@@ -23,7 +23,7 @@ AngularLazyLoad
     </li>
     <li>
         Подкрузка директивой:
-        <pre><div data-lazy-load="modName"></div></pre>
+        <pre><code><div data-lazy-load="modName"></div></code></pre>
     </li>
     <li>
         Подгрузка внутри контроллера:
