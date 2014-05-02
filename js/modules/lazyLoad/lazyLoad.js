@@ -204,7 +204,6 @@
                             }
                         },
                         loadModule: function(options, afterLoad) {
-                            console.log(options);
                             var that = this;
                             if (afterLoad === undefined) {
                                 afterLoad = function (){};
