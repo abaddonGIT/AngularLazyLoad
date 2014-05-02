@@ -262,6 +262,8 @@
                                                 afterLoad(content);
                                             });
                                         }
+                                    } else {
+                                        afterLoad();
                                     }
                                 });
                             } else {
