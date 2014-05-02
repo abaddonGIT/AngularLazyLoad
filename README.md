@@ -23,7 +23,8 @@ AngularLazyLoad
     </li>
     <li>
         Подкрузка директивой:
-        <pre><code><div data-lazy-load="modName"></div></code></pre>
+        <pre><code>&lt;div data-lazy-load="modName"&gt;
+</code></pre>
     </li>
     <li>
         Подгрузка внутри контроллера:
@@ -35,7 +36,7 @@ app.controller("baseController", ['$scope', '$lazyLoad', '$document', function (
             scope: $scope,//Область выполнения
             el: angular.element($document[0].querySelector('#testModule'))//Куда будет вставлен подгруженный код шаблона, если такой имеется
         }], function () {
-            console.log("Все модули подгруженны");
+            console.log("Все ok!");
         });
     ]);</pre>
     </li>
