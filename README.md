@@ -5,16 +5,16 @@ AngularLazyLoad
 <ol>
     <li>
         Подключение:
-        <code>
+        <pre>
             <script src="js/modules/lazyLoad/lazyLoad.js" type="text/javascript"></script>
-        </code>
-        <code>
+        </pre>
+        <pre>
             var app = angular.module("app", ["lazyLoad"]);
-        </code>
+        </pre>
     </li>
     <li>
         Настройка провайдера:
-        <code>
+        <pre>
             app.config(['$lazyLoadProvider', function ($lazyLoadProvider) {
                 var modules = [
                     {
@@ -26,17 +26,17 @@ AngularLazyLoad
                 ];
                 $lazyLoadProvider.config(modules, "app");
             } ]);
-        </code>
+        </pre>
     </li>
     <li>
         Подкрузка директивой:
-        <code>
+        <pre>
             <div data-lazy-load="modName"></div>
-        </code>
+        </pre>
     </li>
     <li>
         Подгрузка внутри контроллера:
-        <code>
+        <pre>
             app.controller("baseController", ['$scope', '$lazyLoad', '$document', function ($scope, $lazyLoad, $document) {
                 $lazyLoad.loadMany([//Ф-я для подгрузки нескольких модулей одновременно, для одного модуля можно использовать ф-ю loadModule
                     {
@@ -48,6 +48,6 @@ AngularLazyLoad
                    console.log("Все модули подгруженны");
                 });
             }]);
-        </code>
+        </pre>
     </li>
 </ol>
