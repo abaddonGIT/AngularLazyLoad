@@ -19,7 +19,8 @@ app.config(['$lazyLoadProvider', function ($lazyLoadProvider) {
     $lazyLoadProvider.config(modules, "app");
 } ]);
 
-app.controller("baseController", ['$scope', '$lazyLoad', '$document', function ($scope, $lazyLoad, $document) {
+app.controller("baseController", ['$scope', '$lazyLoad', '$document', '$filter', '$rootScope', function ($scope, $lazyLoad, $document, $filter, $rootScope) {
+    $scope.mimi = "mimi";
     $lazyLoad.loadMany([
         {
             name: "testModule",
@@ -34,4 +35,24 @@ app.controller("baseController", ['$scope', '$lazyLoad', '$document', function (
     ], function (options) {
         console.log(options);
     });
+
+    $rootScope.$on("filter:start", function (e, input) {
+        $scope.mimi = $filter("govno")(input);
+    });
+
 }]);
+
+app.filter("test", function ($lazyLoad, $rootScope, $filter) {
+    $lazyLoad.loadModule({
+        name: 'module3',
+        scope: this
+    }, function () {
+        $rootScope.$emit("filter:loaded");
+    });
+    return function (input) {
+        $rootScope.$on("filter:loaded", function () {
+            $rootScope.$emit("filter:start", input);
+        });
+        return input;
+    };
+});

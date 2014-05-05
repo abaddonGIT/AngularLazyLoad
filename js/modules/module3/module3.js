@@ -9,6 +9,10 @@ angular.module('module3', []).controller("testcontroller3", function ($scope) {
             console.log("Директива из третьего модуля!");
         }
     };
+}).filter('govno', function () {
+    return function (input) {
+        return input + 'govno!!!!';
+    };
 });
 
 
