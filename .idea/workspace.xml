@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="839cf14e-5f73-43ee-8ed3-6d8ceed745ee" name="Default" comment="" />
+    <list default="true" id="839cf14e-5f73-43ee-8ed3-6d8ceed745ee" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,25 +30,25 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="14" selection-start="262" selection-end="262" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="391">
+            <state line="21" column="0" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="459">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="19" selection-start="1482" selection-end="1482" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
+            <state line="38" column="16" selection-start="1245" selection-end="1245" vertical-scroll-proportion="0.5876592" vertical-offset="46" max-vertical-offset="1088">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lazyLoad.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="lazyLoad.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/modules/lazyLoad/lazyLoad.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="221" column="24" selection-start="9484" selection-end="9484" vertical-scroll-proportion="0.4906954" vertical-offset="3256" max-vertical-offset="6137">
+            <state line="90" column="42" selection-start="3594" selection-end="3602" vertical-scroll-proportion="0.0" vertical-offset="1182" max-vertical-offset="6137">
               <folding />
             </state>
           </provider>
@@ -53,7 +57,7 @@
       <file leaf-file-name="module3.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/modules/module3/module3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="9" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+            <state line="9" column="9" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="408">
               <folding />
             </state>
           </provider>
@@ -71,7 +75,7 @@
       <file leaf-file-name="testModule2.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/modules/testModule2/testModule2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="3" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+            <state line="5" column="3" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="238">
               <folding />
             </state>
           </provider>
@@ -288,15 +292,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25772098" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2657082" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -330,6 +334,132 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="16" selection-start="1245" selection-end="1245" vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="1088">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/modules/lazyLoad/lazyLoad.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="42" selection-start="3594" selection-end="3602" vertical-scroll-proportion="0.0" vertical-offset="1182" max-vertical-offset="6137">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/modules/module3/module3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="9" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/modules/testModule/testModule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/modules/testModule2/testModule2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="3" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="28" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="1088">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/modules/lazyLoad/lazyLoad.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="221" column="24" selection-start="9484" selection-end="9484" vertical-scroll-proportion="0.0" vertical-offset="3256" max-vertical-offset="6137">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/modules/module3/module3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="9" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/modules/testModule/testModule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/modules/testModule2/testModule2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="3" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="23" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="28" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="1071">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/modules/lazyLoad/lazyLoad.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="221" column="24" selection-start="9484" selection-end="9484" vertical-scroll-proportion="0.0" vertical-offset="3256" max-vertical-offset="6137">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/modules/module3/module3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="9" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/modules/testModule/testModule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/modules/testModule2/testModule2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="3" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="36" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="374">
           <folding />
         </state>
@@ -337,9 +467,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="35" selection-start="1603" selection-end="1603" vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="816">
-          <folding />
-        </state>
+        <state line="38" column="35" selection-start="1603" selection-end="1603" vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="816" />
       </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
@@ -389,9 +517,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="136">
-          <folding />
-        </state>
+        <state line="2" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="136" />
       </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
@@ -476,9 +602,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="9" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.6997992" vertical-offset="0" max-vertical-offset="996">
-          <folding />
-        </state>
+        <state line="41" column="9" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.6997992" vertical-offset="0" max-vertical-offset="996" />
       </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
@@ -498,13 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="14" selection-start="262" selection-end="262" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="391">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/modules/module3/module3.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="9" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
@@ -512,16 +629,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="19" selection-start="1482" selection-end="1482" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
+        <state line="21" column="0" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="459">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/modules/lazyLoad/lazyLoad.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="221" column="24" selection-start="9484" selection-end="9484" vertical-scroll-proportion="0.4906954" vertical-offset="3256" max-vertical-offset="6137">
+        <state line="90" column="42" selection-start="3594" selection-end="3602" vertical-scroll-proportion="0.0" vertical-offset="1182" max-vertical-offset="6137">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="16" selection-start="1245" selection-end="1245" vertical-scroll-proportion="0.5876592" vertical-offset="46" max-vertical-offset="1088">
           <folding />
         </state>
       </provider>

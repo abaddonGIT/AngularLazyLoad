@@ -38,6 +38,7 @@ app.controller("baseController", ['$scope', '$lazyLoad', '$document', '$filter',
 
     $rootScope.$on("filter:start", function (e, input) {
         $scope.mimi = $filter("govno")(input);
+        console.log($scope);
     });
 
 }]);
