@@ -4,6 +4,7 @@
     <list default="true" id="839cf14e-5f73-43ee-8ed3-6d8ceed745ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/modules/lazyLoad/lazyLoad.js" afterPath="$PROJECT_DIR$/js/modules/lazyLoad/lazyLoad.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
