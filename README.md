@@ -41,3 +41,47 @@ app.controller("baseController", ['$scope', '$lazyLoad', '$document', function (
     ]);</pre>
     </li>
 </ol>
+<hr />
+AngularLazyLoad
+===============
+Lazy loading angular modules
+<h2>How to use it?</h2>
+<ol>
+    <li>
+        Installation:
+            <pre>var app = angular.module("app", ["lazyLoad"]);</pre>
+    </li>
+    <li>
+        Provider settings:
+        <pre>app.config(['$lazyLoadProvider', function ($lazyLoadProvider) {
+        var modules = [
+            {
+                name: 'testModule',//Real module name
+                file: 'js/modules/testModule/testModule.js',//Module file
+                template: 'js/modules/testModule/tpl/test.tpl.html'//Module template if is there,
+                css: 'js/modules/style.css'//Style file, if is there
+            }
+        ];
+        $lazyLoadProvider.config(modules, "app");
+} ]);</pre>
+    </li>
+    <li>
+        Loading by means of directive:
+        <pre><code>&lt;div data-lazy-load="modName"&gt;
+</code></pre>
+    </li>
+    <li>
+        Loading inside controller:
+        <pre>
+app.controller("baseController", ['$scope', '$lazyLoad', '$document', function ($scope, $lazyLoad, $document) {
+    $lazyLoad.loadMany([//Function form loading several modules. If you want to install one module, then use the LoadModule function.
+        {
+            name: "testModule",//Module name
+            scope: $scope,
+            el: angular.element($document[0].querySelector('#testModule'))//Element in which module template is loaded
+        }], function () {
+            console.log("ok!");
+        });
+    ]);</pre>
+    </li>
+</ol>
